@@ -1,0 +1,39 @@
+.btn{
+  display: block;
+  max-width: 232px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 70px;
+
+  background-color: #FFFFFF;
+  color: var(--color-main);
+  box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.4);
+
+  font-weight: 900;
+
+  text-align: center;
+}
+.btn:hover{
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+.tags{
+  display:inline-block;
+  flex-wrap: wrap;
+}
+.btn__tags{
+  
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 70px;
+  background-color: #EED7D8;
+  box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.4);
+
+  font-weight: 400;
+  font-size: 1.4rem;
+
+  text-align: center;
+}
+.country{
+  font-size: 1rem;
+}

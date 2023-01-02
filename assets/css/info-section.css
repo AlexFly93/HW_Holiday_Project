@@ -1,0 +1,22 @@
+.info{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: var(--padding-size);
+
+  text-align: center;
+}
+.main__container{
+  display: flex;
+  flex-direction: column;
+}
+.info__countries{
+font-weight: 700;
+Font-size: 42px;
+}
+.info__main{
+  background-image: url(./../images/bg-images/bg-info-dt.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
